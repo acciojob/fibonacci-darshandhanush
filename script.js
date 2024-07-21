@@ -14,7 +14,7 @@ function fibonacci(num) {
     let fibCurr = 1;
     let fibNext;
     
-    for (let i = 2; i <= num; i++) {
+    for (let i = 3; i <= num; i++) {
         fibNext = fibPrev + fibCurr;
         fibPrev = fibCurr;
         fibCurr = fibNext;
